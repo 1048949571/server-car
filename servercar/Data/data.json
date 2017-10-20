@@ -1,0 +1,62 @@
+[
+  {
+    "bgs":"#f85858",
+    "serfa":"fa fa-building-o",
+    "sertxt":"油卡充值"
+  },
+  {
+    "bgs":"#0ca671",
+    "serfa":"fa fa-clone",
+    "sertxt":"低价保险"
+  },
+  {
+    "bgs":"#7760ef",
+    "serfa":"fa fa-desktop",
+    "sertxt":"4S店保养"
+  },
+  {
+    "bgs":"#9adac5",
+    "serfa":"fa fa-flag",
+    "sertxt":"品质轮胎"
+  },
+  {
+    "bgs":"#ff4e00",
+    "serfa":"fa fa-heart-o",
+    "sertxt":"车品商城"
+  },
+  {
+    "bgs":"#679cff",
+    "serfa":"fa fa-hdd-o",
+    "sertxt":"洗车"
+  },
+  {
+    "bgs":"#ff4e00",
+    "serfa":"fa fa-history",
+    "sertxt":"违章袋鼠"
+  },
+  {
+    "bgs":"#ff4e00",
+    "serfa":"fa fa-map-o",
+    "sertxt":"免费测评"
+  },
+  {
+    "bgs":"#d0e0ff",
+    "serfa":"fa fa-motorcycle",
+    "sertxt":"查周边"
+  },
+  {
+    "bgs":"#d0e0ff",
+    "serfa":"fa fa-spinner",
+    "sertxt":"车主卡"
+  },
+  {
+    "bgs":"#d0e0ff",
+    "serfa":"fa fa-tv",
+    "sertxt":"领卷保养"
+  },
+  {
+    "bgs":"#ccc",
+    "serfa":"fa fa-hand-rock-o",
+    "sertxt":"全部"
+  }
+]

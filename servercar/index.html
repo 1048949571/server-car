@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=2,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/css/swiper.min.css">
+    <link rel="stylesheet" href="Content/css/reset.css">
+    <link rel="stylesheet" href="Content/css/common.css">
+    <link rel="stylesheet" href="Content/css/style.css">
+    <style>
+        *{text-decoration: none;list-style: none}
+    </style>
+</head>
+<body ng-app="App">
+    <header class="header">
+        <h1><b class="mr10"><a ng-href="">服务</a></b>
+            <b ><a ng-href="jr.html" class="hear-bg">金融</a></b>
+        </h1>
+        <span><i class="fa fa-search"></i></span>
+    </header>
+    <section class="content">
+        <ui-view></ui-view>
+    </section>
+    <footer class="footer">
+        <div class="footer-nav mt5">
+            <a href="#"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-glide"></i></a>
+            <a href="#"><i class="fa fa-qq"></i></a>
+            <a href="#"><i class="fa fa-eur"></i></a>
+            <a href="#"><i class="fa fa-comment"></i></a>
+        </div>
+        <div class="footer-navs">
+            <a href="#">首页</a>
+            <a href="#">论坛</a>
+            <a href="#">选车</a>
+            <a href="#">发现</a>
+            <a href="#">未登陆</a>
+        </div>
+    </footer>
+<script type="text/javascript" src="Script/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="Script/angular/angular.min.js"></script>
+<script type="text/javascript" src="Script/angular/angular-ui-router.js"></script>
+<script type="text/javascript" src="Script/js/swiper.min.js"></script>
+    <script type="text/javascript" src="Script/js/iscroll.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+<script type="text/javascript" src="App/Services/ajaxServer.js"></script>
+<script type="text/javascript" src="App/Services/serveServer.js"></script>
+<script type="text/javascript" src="App/Controllers/serveController.js"></script>
+<script type="text/javascript" src="App/Directives/serveDirective.js"></script>
+
+</body>
+</html>

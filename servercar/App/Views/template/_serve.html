@@ -1,0 +1,156 @@
+<div class="swiper-container flash">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="Content/images/banner_1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Content/images/banner_2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Content/images/banner_5.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Content/images/banner_6.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Content/images/banner_7.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Content/images/banner_8.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Content/images/banner_9.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination" id="click"></div>
+</div>
+<div class="navigator">
+    <dl>
+        <dt class="bg-danger">
+            <i class="fa fa-sliders"></i>
+        </dt>
+        <dd>车商城</dd>
+    </dl>
+    <dl>
+        <dt class="bg-orange">
+            <i class="fa fa-skype"></i>
+        </dt>
+        <dd>分期购车</dd>
+    </dl>
+    <dl>
+        <dt class="bg-danger">
+            <i class="fa fa-spinner"></i>
+        </dt>
+        <dd>团购活动</dd>
+    </dl>
+    <dl>
+        <dt class="bg-blue">
+            <i class="fa fa-car"></i>
+        </dt>
+        <dd>找二手车</dd>
+    </dl>
+</div>
+<div class="nav">
+    <img src="Content/images/icc_03.png" alt="">
+</div>
+<div class="navserver">
+    <h5 class="ml15 f16">车主服务</h5>
+    <dl class="col-xs-3" ng-repeat="obj in objs">
+        <dt>
+            <i class="{{obj.serfa}}" style="color:{{obj.bgs}}"></i>
+        </dt>
+        <dd>{{obj.sertxt}}</dd>
+    </dl>
+</div>
+<div class="xtime mt10">
+    <p>
+        <span class="xtimel">限时抢购</span>
+        <span class="xtimer">
+            <b>13</b>:
+            <b>13</b>:
+            <b>13</b>
+        </span>
+    </p>
+    <div id="wrapper">
+    <div class="timeli" id="scroller">
+        <ul>
+            <li class="ml10">
+                <dt>
+                    <img src="Content/images/icc_49.png" alt="dd">
+                </dt>
+                <dd>
+                    <p class="ml5">补胎工具简易套装</p>
+                    <b class="ml5">￥9.9元</b><time class="ml5">28元</time>
+                </dd>
+            </li>
+            <li class="ml10">
+                <dt>
+                    <img src="Content/images/icc_52.png" alt="dd">
+                </dt>
+                <dd>
+                    <p class="ml5">车用椅背挂钩</p>
+                    <b class="ml5">￥9.9元</b><time class="ml5">28元</time>
+                </dd>
+            </li>
+            <li class="ml10">
+                <dt>
+                    <img src="Content/images/banner_5.jpg" alt="dd">
+                </dt>
+                <dd>
+                    <p class="ml5">汽车你值得拥有</p>
+                    <b class="ml5">￥102万元</b><time class="ml5">228万元</time>
+                </dd>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="xhapp mt10">
+    <p>
+        <span class="xhappl">活动专区</span>
+        <span class="xhappr">
+          更多活动  <i class="fa fa-angle-right mr5 ml5"></i>
+        </span>
+    </p>
+    <div class="xhappli">
+        <ul>
+            <li class="col-xs-4">
+                <dd>
+                    <p class="ml5">测身价炫富</p>
+                    <b class="ml5">身价大PK</b>
+                </dd>
+                <dt>
+                    <img src="Content/images/icc_60.png" alt="dd">
+                </dt>
+            </li>
+            <li class="col-xs-4">
+                <dd>
+                    <p class="ml5">全场0利润</p>
+                    <b class="ml5">购车无压力</b>
+                </dd>
+                <dt>
+                    <img src="Content/images/icc_57.png" alt="dd">
+                </dt>
+            </li>
+            <li class="col-xs-4">
+                <dd>
+                    <p class="ml5">好车分期</p>
+                    <b class="ml5">定制专属方</b>
+                </dd>
+                <dt>
+                    <img src="Content/images/icc_63.png" alt="dd">
+                </dt>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="love mt10">
+    <p>
+        <span class="lovel">活动专区</span>
+        <span class="lover">
+          更多活动  <i class="fa fa-angle-right mr5 ml5"></i>
+        </span>
+    </p>
+    <div class="loveli">
+        <ul>
+            <li class="col-xs-6" ng-repeat="obj in car">
+                <dt>
+                    <img src="{{obj.carimg}}" alt="">
+                </dt>
+                <dd>
+                    <label class="ml5">{{obj.labetxt}}</label>
+                    <p class="ml5">{{obj.ptxt}}</p>
+                    <b>{{obj.btxt}}</b><time class="ml5">{{obj.timetxt}}</time>
+                </dd>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
